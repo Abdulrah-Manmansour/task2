@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*====start home section=======*/
+.home{
+    width: 65%;
+    margin: 20px auto;
+  background-color: purple;
+    height: 400px;
+    overflow: hidden;
+}
+.header-contact{
+   font-size: 50px;
+   margin-bottom: 24px;
+}
+.homecontent{
+    color: #ffff;
+    text-align: center;
+    width: 70%;
+    margin: 150px auto;
+    height: 100%;
+}
+.alink{
+color: #fff;
+text-decoration: none;
+}
+/*=====end home section=========*/
+/*====start section contact======*/
+.contact{
+    width: 90%;
+    margin: 100px auto;
+
+}
+.info{
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+.info h3{
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.info p{
+    margin-bottom: 25px;
+    color: #77778d;
+}
+.info .input{
+    width: 10%;
+    margin-bottom: 20px;
+}
+.inputs{
+    width: 35%;
+    float: left;
+    margin-right: 50px;
+}
+.inputs input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 5px ;
+    border: 1px solid #eee;
+    outline: none;
+}
+.inputs2{
+    width: 35%;
+    float: left;
+  
+}
+.inputs2 textarea{
+    width: 100%;
+    border: 1px solid #eee;
+    outline: none;
+    margin-bottom: 20px;
+    padding:  10px;
+    height: 150px;
+}
+.inputs2 button{
+float: right;
+background-color: purple;
+color: #fff;
+padding: 18px 40px;
+border: none;
+font-size: 20px;
+margin: 15px 0;
+cursor: pointer; 
+}
+/*====end section contact========*/
+/*====start section map=======*/
+.map{
+    width: 80%;
+    margin:  auto;
+    height: 500px;
+    overflow: hidden;
+}
+
+.map iframe{
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+}
+/*====end section map====*/
+
+/*=====START FOOTER=======*/
+footer{
+    text-align: center;
+    margin-top: 100px;
+}
+footer img{
+    margin-bottom: 30px;
+}
+footer h3{
+    margin-bottom: 20px;
+}
+footer p{
+    color: #77778d;
+}
+/*====END FOOTER========*/
